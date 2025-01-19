@@ -5,11 +5,11 @@
 }
 
 #navbar {
-height: 60px;
-width: 100%;
-background-color: black;
-position: fixed;
-top: 0;
+  height: 60px;
+  width: 100%;
+  background-color: black;
+
+  top: 0;
 
 }
 #logo {
@@ -17,8 +17,8 @@ top: 0;
     color: rgb(197, 169, 44);
 }
 a {
- margin-right: 150px;
- text-decoration: none;
+   margin-right: 150px;
+   text-decoration: none;
 
 }
 #search {
@@ -26,48 +26,68 @@ a {
 }
 button {
    
-   background-color: rgb(197, 169, 44);
+    background-color: rgb(197, 169, 44);
 
 }
 #content {
     height: 700px;
-
-    display: inline;
-
+  
+}
+#aside1 {
+    height: 700px;
+    width: 20%;
+    background-color: rgb(103, 152, 232);
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 100px;
+    font-style: italic;
+    color: black;
 }
 
+ 
 #nature {
     height: 700px;
     width: 80%;
     background-image: url(bird.jpg);
     background-size: cover;
+    background-position: right top;
     margin-left: auto;
+    position: absolute;
+    right: 0px;
+    top: 60px; 
+    text-align: right;
+    color: black;
+    font-family: Arial;
+    font-size: 25px;
+    text-transform: capitalize;
 
 }
-#sign {
-   
-    height: 100px;
-    width: 50px;
-    background-color: blue;
+
+#naturehead{
+   color: black;
 
 }
+
 #footer {
     height: 200px;
     width: 100%;
     background-color: black;
+    position: static;
+ 
 
 }
 
 #footer1 {
-height: 100px;
-width: 40%;
-background-color: black;
-color: white;
-margin-top: 0px;
-text-align: left;
-padding-top: 50px;
-display: inline-block;
-padding-left: 20px;
+   height: 100px;
+   width: 40%;
+   background-color: black;
+   color: white;
+   margin-top: 0px;
+   text-align: left;
+   padding-top: 50px;
+   display: inline-block;
+   padding-left: 20px;
 
 }
 #footer2 {
