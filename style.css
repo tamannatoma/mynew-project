@@ -33,20 +33,50 @@ button {
     height: 700px;
   
 }
-#aside1 {
-    height: 700px;
+.sidebar {
+    height:700px;
+    width: 20%;
+    background-color: rgb(78, 139, 139);
+}
+.aside1 {
+    color: black;
+    padding: 20px;
+    font-style: italic;
+ 
+}
+/*
+.aside1 {
+    height: 400px;
     width: 20%;
     background-color: rgb(103, 152, 232);
     display: inline-block;
     text-align: center;
-    font-size: 20px;
-    padding-top: 100px;
+    font-size: 15px;
+    padding-top: 20px;
     font-style: italic;
     color: black;
-}
+    position: absolute;
+}*/
+.aside2 {
+    height:300px;
+    width: 100%;
+    margin-top: 50px;
+    
 
- 
-#nature {
+
+
+}
+.aside3 {
+   
+    height: 100px;
+    width: 100%;
+    text-align: center;
+   
+   text-transform: capitalize;
+   margin-top: 50px;
+
+}
+.nature {
     height: 700px;
     width: 80%;
     background-image: url(bird.jpg);
@@ -61,6 +91,7 @@ button {
     font-family: Arial;
     font-size: 25px;
     text-transform: capitalize;
+    
 
 }
 
@@ -68,12 +99,32 @@ button {
    color: black;
 
 }
+.animals{
+  display: flex;
+  height: 700px;
+  width: 80%;
+  text-align: center;
+  align-items: end;
+  align-content: flex-end;
+  justify-content: center;
+  flex-direction: row;
+}
 
+.bird {
+    height: 200px;
+    width: 200px;
+    font-size: 15px;
+    color: black;
+   padding-top: 20px;
+    border: 2px solid black;
+  
+    
+}
 #footer {
     height: 200px;
     width: 100%;
     background-color: black;
-    position: static;
+   
  
 
 }
@@ -96,7 +147,7 @@ button {
     color: white;
     background-color: black;
     display: inline;
-    margin-left: 350px;
+    margin-left: 320px;
     padding-top: 50px;
 }
 #footer3 {
@@ -104,3 +155,6 @@ button {
     width: 100%;
     text-align: center;
 }
+
+
+  
